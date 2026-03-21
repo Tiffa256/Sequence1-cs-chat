@@ -21,14 +21,14 @@ import { supabase } from "./supabaseClient";
 // 🔥 Firebase RTDB Setup
 // -------------------------------------------------------
 const firebaseConfig = {
-  apiKey: "AIzaSyC2zj4x4oNBCWrkBDtJluGxKTIhcvbnl8I",
-  authDomain: "sequence-chat.firebaseapp.com",
-  databaseURL: "https://sequence-chat-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "sequence-chat",
-  storageBucket: "sequence-chat.firebasestorage.app",
-  messagingSenderId: "609245869279",
-  appId: "1:609245869279:web:92472ffca33e9809a0656a",
-  measurementId: "G-SLTJ6BM596",
+  apiKey: "AIzaSyD3WzzG18ffhaG57mfrgiwg4GlnCB00jDA",
+  authDomain: "sequence1-dddc8.firebaseapp.com",
+  databaseURL: "https://sequence1-dddc8-default-rtdb.firebaseio.com",
+  projectId: "sequence1-dddc8",
+  storageBucket: "sequence1-dddc8.firebasestorage.app",
+  messagingSenderId: "52710786757",
+  appId: "1:52710786757:web:ac69dc67bc5e5ba768d2ac",
+  measurementId: "G-PQ9B5GVSVS",
 };
 
 const app = initializeApp(firebaseConfig);
@@ -173,3 +173,35 @@ export function setPresence(userId, { online }) {
     lastSeen: online ? null : Date.now(),
   });
 }
+
+
+
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD3WzzG18ffhaG57mfrgiwg4GlnCB00jDA",
+  authDomain: "sequence1-dddc8.firebaseapp.com",
+  projectId: "sequence1-dddc8",
+  storageBucket: "sequence1-dddc8.firebasestorage.app",
+  messagingSenderId: "52710786757",
+  appId: "1:52710786757:web:ac69dc67bc5e5ba768d2ac",
+  measurementId: "G-PQ9B5GVSVS"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
+
+https://sequence1-dddc8-default-rtdb.firebaseio.com
