@@ -48,12 +48,12 @@ export default function Welcome() {
       >
         <div className="profile">
           <img
-            src="/CS-Keymus.png"
+            src="/Cs.jpg"
             alt="Stacks Logo"
             className="avatar"
           />
           <div className="profile-text">
-            <h4>Keymus-Ecommerce</h4>
+            <h4>Sequence-Commerce</h4>
             <span>Customer Service</span>
           </div>
         </div>
