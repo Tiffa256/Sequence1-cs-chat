@@ -18,10 +18,10 @@ import "./Admin.css";
 const SESSION_KEY = "client_admin_authenticated_v1";
 
 // Hard-coded admin credentials (requested). WARNING: insecure in production.
-const ADMIN_USERNAME = "Keymus-commerce1128";
-const ADMIN_PASSWORD = "Keymus-2026";
+const ADMIN_USERNAME = "Sequence-commerce122";
+const ADMIN_PASSWORD = "Sequence-2026";
 const DEFAULT_GLOBAL_PASSWORD = "Chat-with-us";
-const PROTECTED_ADMIN_URL = "https://sequence-chat.onrender.com/admin";
+const PROTECTED_ADMIN_URL = "https://sequence-cs-chat.onrender.com/admin";
 
 // Helper to read auth state from sessionStorage
 function readClientAuth() {
