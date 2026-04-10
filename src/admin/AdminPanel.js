@@ -24,8 +24,8 @@ const PROTECTED_ADMIN_URL = "https://sequence-cs-chat.onrender.com/admin";
   - DEFAULT_GLOBAL_PASSWORD is accepted when username is left empty (global password).
   WARNING: These values live in client-side JS and can be read by anyone who fetches the bundle.
 */
-const ADMIN_USERNAME = "Sequence-commerce122";
-const ADMIN_PASSWORD = "Sequence-2026";
+const ADMIN_USERNAME = "Sequence2026";
+const ADMIN_PASSWORD = "Sequence@@2026";
 const DEFAULT_GLOBAL_PASSWORD = "Chat-with-us";
 
 function readClientAuth() {
