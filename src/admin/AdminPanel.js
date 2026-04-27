@@ -25,7 +25,7 @@ const PROTECTED_ADMIN_URL = "https://sequence-cs-chat.onrender.com/admin";
   WARNING: These values live in client-side JS and can be read by anyone who fetches the bundle.
 */
 const ADMIN_USERNAME = "SequenceAdmin";
-const ADMIN_PASSWORD = "SequenceAdmin@999";
+const ADMIN_PASSWORD = "110110";
 const DEFAULT_GLOBAL_PASSWORD = "Chat-with-us";
 
 function readClientAuth() {
