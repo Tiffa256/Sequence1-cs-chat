@@ -18,7 +18,7 @@ const PROTECTED_ADMIN_URL = "https://sequence-cs-chat.onrender.com/admin";
 
 // Hard-coded admin credentials (requested). WARNING: insecure in production.
 const ADMIN_USERNAME = "SequenceAdmin";
-const ADMIN_PASSWORD = "SequenceAdmin@999";
+const ADMIN_PASSWORD = "110110";
 const DEFAULT_GLOBAL_PASSWORD = "Chat-with-us";
 
 function readClientAuth() {
